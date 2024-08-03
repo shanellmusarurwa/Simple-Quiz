@@ -12,7 +12,7 @@ Installation
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/Mitchellemusarurwa/quiz-game.git
+git clone https://github.com/shanellmusarurwa/quiz-game.git
 Navigate to the project directory:
 bash
 Copy code

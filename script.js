@@ -198,7 +198,7 @@ const questions = {
   let score = 0;
   let timer;
   let timeLeft = 10;
-  const minScoreThreshold = 5; // Minimum score to keep in the leaderboard
+  const minScoreThreshold = 5; 
   
   const questionElement = document.getElementById('question');
   const answerButtonsElement = document.getElementById('answer-buttons');
@@ -213,9 +213,9 @@ const questions = {
     score = 0;
     nextButton.innerHTML = "Next";
     scoreElement.innerText = `Score: ${score}`;
-    clearLowScores(); // Clear low scores when starting a new game
+    clearLowScores(); 
     showQuestion();
-    loadLeaderboard(); // Load leaderboard after clearing low scores
+    loadLeaderboard(); 
   }
   
   function selectDifficulty(difficulty) {
@@ -281,7 +281,7 @@ const questions = {
     } else {
       nextButton.innerHTML = "Restart";
       nextButton.style.display = 'block';
-      saveScore(score); // Save the score when the game ends
+      saveScore(score); 
     }
     clearInterval(timer);
   }
@@ -322,6 +322,6 @@ const questions = {
     }
   });
   
-  // Initially show difficulty selection
+  
   difficultyContainer.style.display = 'block';
   

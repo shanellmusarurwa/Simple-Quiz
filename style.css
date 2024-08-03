@@ -102,6 +102,69 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   }
+  @media (max-width: 768px){
+
+    #main-container {
+      flex-direction: column;
+    }
+  
+    #quiz-container, #leaderboard-container {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    #difficulty-container button, #answer-buttons .btn, #next-btn {
+      font-size: 14px;
+    }
+  
+    #timer, #question-container, #score-container {
+      font-size: 16px;
+    }
+  
+  }
+  
+@media(max-width : 520px){
+  body {
+    padding: 10px; 
+  }
+  
+  #main-container {
+    flex-direction: column;
+    width: 100%; 
+    max-width: 100%; 
+    margin: 0 auto; 
+    box-shadow: none; 
+  }
+
+  #quiz-container, #leaderboard-container {
+    width: 100%; 
+    padding: 10px; 
+    margin: 10px auto; 
+  }
+
+  #difficulty-container button, #answer-buttons .btn, #next-btn {
+    font-size: 14px;
+  }
+
+  #timer, #question-container, #score-container {
+    font-size: 16px;
+  }
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
